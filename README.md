@@ -2,7 +2,7 @@
 I began organizing the work I have done in this repository. It contains the implementation, the benchmarking scripts, and the theoretical arguments, as well as the example dataset.
 
 The core of the problem is finding a construction, this is done via introducing a set of constraints. The arguments are written in Reasoning.pdf
-The construction is illustrated in Graph_Image.png, we can make a ton of examples like this.
+The construction is illustrated in illustration.jpg on paper, we can make a ton of examples like this more elegantly.
 
 The inputs are sampled from A_NetworkSampler.py, which is a pseaudo uniform sampler. Making it completely uniform would be more costly but if it would mean an improvement we can use uniformly distributed graphs. (Actually, it would be an interesting use of Infrared)
 The experience with the data shows that the construction satisfying alone is not that much faster than regular solvers, so optimization would be really relevant via the weighted case.
