@@ -12,3 +12,12 @@ use as an integer. We can simply work with big negative numbers and addition and
 
 I was able to benchmark the results for the core example using 300 inputs(Benchmark.py), and plotted them.
 For the weighted case I ran into a technical problem, that I cant wrap my head around. That being said, it is a very natural extension of the problem so once we sort out the issue it will work nicely.
+
+The code was ran on a windows 11 laptop with these paramters
+Processor	Intel(R) Core(TM) i9-14900HX (2.20 GHz)
+Installed RAM	32.0 GB (31.7 GB usable)
+Device ID	29E5B649-6644-4975-92E5-5EF12464BFD0
+Product ID	00330-53579-90468-AAOEM
+System type	64-bit operating system, x64-based processor
+Pen and touch	No pen or touch input is available for this display
+
