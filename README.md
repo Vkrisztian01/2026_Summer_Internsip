@@ -10,5 +10,5 @@ I used an example that you recommended, we can assign probabilities for the edge
 Using probabilities would require multiplying long franctions, so instead of that, we can use a logarithmic scale and just add the weights of the edges that we use in the construction. Since the probabilities will be between 0 and 1 the logarithm can be approximated with some negative number that we can scale up to
 use as an integer. We can simply work with big negative numbers and addition and just look for a minimization.
 
-I was able to benchmark the results for the core example using 300 inputs(Seged.py), and plotted them.
+I was able to benchmark the results for the core example using 300 inputs(Benchmark.py), and plotted them.
 For the weighted case I ran into a technical problem, that I cant wrap my head around. That being said, it is a very natural extension of the problem so once we sort out the issue it will work nicely.
